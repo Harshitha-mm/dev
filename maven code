@@ -25,3 +25,8 @@ System.out.println("Firstname:"+fname);
 System.out.println("Lastname:"+lname);
 
 }
+
+student.json
+
+{"firstname":"dev",
+"lastname":"ops"}
