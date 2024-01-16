@@ -1,0 +1,5 @@
+open docker hub and docker desktop 
+open cmd prompt 
+--> docker images 
+-->docker tag <reponame>:<tagname> <dockerhubid>/<newname>:<tagname>
+-->docker push hubname/<displayname>

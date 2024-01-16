@@ -1,0 +1,20 @@
+client server 
+open three command prompts 
+ensure that docker desktop is running 
+
+
+in cmd 1
+docker run mysql
+docker pull mysql
+docker run -e MYSQL_ROOT_PASSWORD="root123" -d mysql 
+(copy the id here)
+in cmd 2
+docker container ls(note down the name)
+docker inspect [name from the above ]
+note down the ip address
+in cmd 3 
+docker run -it mysql /bin/bash
+bash-4.4# mysql -h [ip] -u root -p
+enter password:
+show tables 
+show databases 
